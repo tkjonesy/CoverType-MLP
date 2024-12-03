@@ -14,4 +14,7 @@ Clone the repository:<br>
 
 ## Running the Code
 1. Open `MLP.ipynb`.
-2. Run all cells.
+2. Ensure all these packages are installed: <br>
+    `pip install ucimlrepo sklearn matplotlib seaborn pandas numpy`
+3. All training and experimenting took place with a `random_state=42`. Use this value to reproduce results.
+4. Run all cells under the "Final Model" section. Be sure not to run the entire file, as the  "Hyper-Parameter Tuning" contains a lot of loops and will take a long time to run.
